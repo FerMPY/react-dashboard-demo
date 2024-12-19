@@ -11,12 +11,10 @@ import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
 import react from "@eslint-react/eslint-plugin";
 import simpleImportSort from "eslint-plugin-simple-import-sort";
 import eslintPluginImportX from "eslint-plugin-import-x";
-import pluginRouter from "@tanstack/eslint-plugin-router";
 import pluginQuery from "@tanstack/eslint-plugin-query";
 
 export default tseslint.config(
   ...pluginQuery.configs["flat/recommended"],
-  ...pluginRouter.configs["flat/recommended"],
   js.configs.recommended,
   eslint.configs.recommended,
   tseslint.configs.recommended,
