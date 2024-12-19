@@ -11,7 +11,8 @@
       "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
       "@routes/*": ["./routes/*"],
-      "@styles/*": ["./src/styles/*"]
+      "@styles/*": ["./src/styles/*"],
+      "@icons/*": ["./src/assets/icons/*"]
     },
 
     /* Bundler mode */
