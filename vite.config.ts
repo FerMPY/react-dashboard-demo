@@ -1,26 +1,28 @@
+import { reactRouter } from "@react-router/dev/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
-import svgr from "vite-plugin-svgr";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 const ReactCompilerConfig = {};
 
-export default defineConfig({
+export default defineConfig(({ isSsrBuild, command }) => ({
+  build: {
+    rollupOptions: isSsrBuild
+      ? {
+          input: "./server/app.ts",
+        }
+      : undefined,
+  },
+  ssr: {
+    noExternal: command === "build" ? true : undefined,
+  },
   plugins: [
     tsconfigPaths(),
-    svgr({
-      svgrOptions: {
-        plugins: ["@svgr/plugin-svgo", "@svgr/plugin-jsx"],
-        svgoConfig: {
-          floatPrecision: 2,
-        },
-      },
-      include: "**/*.svg?react",
-    }),
+    reactRouter(),
     react({
       babel: {
         plugins: [["babel-plugin-react-compiler", ReactCompilerConfig]],
       },
     }),
   ],
-});
+}));
