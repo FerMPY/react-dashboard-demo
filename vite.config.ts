@@ -10,6 +10,7 @@ export default defineConfig({
     tsconfigPaths(),
     svgr({
       svgrOptions: {
+        icon: true,
         plugins: ["@svgr/plugin-svgo", "@svgr/plugin-jsx"],
         svgoConfig: {
           floatPrecision: 2,
