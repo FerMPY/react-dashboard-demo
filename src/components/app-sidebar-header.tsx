@@ -7,7 +7,7 @@ export function AppSidebarHeader({
 }) {
   return (
     <div>
-      <div className="flex flex-col gap-0.5 leading-none">
+      <div className="flex items-center gap-0.5">
         {icon}
         <span className="font-semibold">{title}</span>
       </div>

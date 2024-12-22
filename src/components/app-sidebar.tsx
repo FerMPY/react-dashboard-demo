@@ -14,19 +14,19 @@ import {
   SidebarMenuItem,
   SidebarRail,
 } from "@/components/ui/sidebar";
+import { ROUTES } from "@/constants";
 
 import { AppSidebarHeader } from "./app-sidebar-header";
 
-// This is sample data.
 const data = {
   navMain: [
     {
-      title: "Installation",
-      url: "/",
+      title: ROUTES.Dashboard.title,
+      url: ROUTES.Dashboard.url,
     },
     {
-      title: "Project Structure",
-      url: "/settings",
+      title: ROUTES.Settings.title,
+      url: ROUTES.Settings.url,
     },
   ],
 };
