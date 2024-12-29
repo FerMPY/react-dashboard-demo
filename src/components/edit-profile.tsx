@@ -22,7 +22,7 @@ import { DatePicker } from "./ui/date-picker";
 
 const FormSchema = z.object({
   name: z.string().min(2, {
-    message: "Username must be at least 2 characters.",
+    message: "Name must be at least 2 characters.",
   }),
   username: z.string().min(2, {
     message: "Username must be at least 2 characters.",

@@ -1,12 +1,18 @@
 import type { Config } from "tailwindcss";
 
+import fluid, { extract, fontSize, screens } from "fluid-tailwind";
 import tailwindAnimate from "tailwindcss-animate";
 
 export default {
   darkMode: ["class"],
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: { files: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"], extract },
   theme: {
+    screens,
+    fontSize,
     extend: {
+      screens: {
+        xs: "20rem",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -66,5 +72,5 @@ export default {
       },
     },
   },
-  plugins: [tailwindAnimate],
+  plugins: [tailwindAnimate, fluid],
 } satisfies Config;

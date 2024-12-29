@@ -1,3 +1,9 @@
+import { MyCreditCards } from "@/components/my-credit-cards";
+
 export function Dashboard() {
-  return <section>Dashboard</section>;
+  return (
+    <section>
+      <MyCreditCards />
+    </section>
+  );
 }
