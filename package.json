@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "dev": "vite",
     "format": "prettier --write .",
+    "json-server": "json-server --watch db.json --port 3001 --cors --routes routes.json",
     "lint": "eslint --fix",
     "prepare": "husky",
     "preview": "vite preview",

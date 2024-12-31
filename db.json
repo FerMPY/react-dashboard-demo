@@ -1,110 +1,139 @@
 {
   "users": [
     {
-      "id": "01JG0DV6CRY3YD6CVA3B2HNZDN",
-      "name": "Ms. Olive Weissnat Jr.",
-      "email": "Cruz_Batz@yahoo.com",
-      "avatar": "https://avatars.githubusercontent.com/u/78819684",
+      "id": "01JGDPCRA06603HYF2HGWF3Y0B",
+      "name": "Gianni Langosh",
+      "email": "Gianni_Langosh54@hotmail.com",
+      "username": "Gianni_Langosh",
+      "avatar": "https://avatars.githubusercontent.com/u/12289460",
+      "password": "hJ_NL8",
       "creditCards": [
         {
-          "cardNumber": "4675-0712-0887-1928",
+          "cardNumber": "5428-6553-5776-8203",
           "cardType": "Master Card",
-          "expiryDate": "2025-11-22",
-          "balance": 5246.88
+          "cardHolder": "Gianni Langosh",
+          "expiryDate": "2025-07-27",
+          "balance": 6503
         },
         {
-          "cardNumber": "3539-5493-1540-2917",
+          "cardNumber": "5194-4836-2116-6274",
           "cardType": "Master Card",
-          "expiryDate": "2025-02-24",
-          "balance": 3936.96
+          "cardHolder": "Gianni Langosh",
+          "expiryDate": "2025-02-18",
+          "balance": 8826
         }
       ]
     },
     {
-      "id": "01JG0DV6CY7V1C8PG96MPV3K6E",
-      "name": "Phillip Balistreri",
-      "email": "Ocie.Lemke@gmail.com",
-      "avatar": "https://avatars.githubusercontent.com/u/33733647",
+      "id": "01JGDPCRA34EAMADTW0BZ2ASPK",
+      "name": "Monroe Wisoky",
+      "email": "Monroe_Wisoky@yahoo.com",
+      "username": "Monroe_Wisoky",
+      "avatar": "https://avatars.githubusercontent.com/u/76728206",
+      "password": "LCrn5K",
       "creditCards": [
         {
-          "cardNumber": "6568-3302-7584-7871",
+          "cardNumber": "2672-9562-8035-7688",
           "cardType": "Master Card",
-          "expiryDate": "2025-08-04",
-          "balance": 1037.1
+          "cardHolder": "Monroe Wisoky",
+          "expiryDate": "2025-10-17",
+          "balance": 7020
         }
       ]
     },
     {
-      "id": "01JG0DV6CZV4DBH3VF0VM4MPFY",
-      "name": "Wilson McCullough",
-      "email": "Richmond99@gmail.com",
-      "avatar": "https://avatars.githubusercontent.com/u/6649144",
+      "id": "01JGDPCRA4513MS6A2J9KNBZX9",
+      "name": "Marisa Hermiston",
+      "email": "Marisa.Hermiston98@yahoo.com",
+      "username": "Marisa_Hermiston53",
+      "avatar": "https://avatars.githubusercontent.com/u/50662898",
+      "password": "JybdOm",
       "creditCards": [
         {
-          "cardNumber": "4492383353930",
+          "cardNumber": "5199-5630-2608-2559",
           "cardType": "Master Card",
-          "expiryDate": "2025-08-21",
-          "balance": 4360.11
-        }
-      ]
-    },
-    {
-      "id": "01JG0DV6CZ4AK8KEHSE6S4HE1F",
-      "name": "Lela Smith",
-      "email": "Glenda7@gmail.com",
-      "avatar": "https://avatars.githubusercontent.com/u/82856273",
-      "creditCards": [
-        {
-          "cardNumber": "6444-6209-9612-1784-4489",
-          "cardType": "Master Card",
-          "expiryDate": "2025-06-08",
-          "balance": 2548.53
+          "cardHolder": "Marisa Hermiston",
+          "expiryDate": "2025-06-19",
+          "balance": 3272
         },
         {
-          "cardNumber": "3670-174654-1763",
+          "cardNumber": "5333-3649-9729-8747",
           "cardType": "Master Card",
-          "expiryDate": "2025-11-18",
-          "balance": 8931.4
+          "cardHolder": "Marisa Hermiston",
+          "expiryDate": "2025-11-16",
+          "balance": 7092
         }
       ]
     },
     {
-      "id": "01JG0DV6D09BDSZTEE32C0KECX",
-      "name": "Adam Grimes-Weber",
-      "email": "Felipe.Olson@yahoo.com",
-      "avatar": "https://avatars.githubusercontent.com/u/61927771",
+      "id": "01JGDPCRA48MKQQNAMFMHY6PS5",
+      "name": "Ernestine Herman",
+      "email": "Ernestine_Herman8@hotmail.com",
+      "username": "Ernestine.Herman85",
+      "avatar": "https://avatars.githubusercontent.com/u/14897900",
+      "password": "JUMqdZ",
       "creditCards": [
         {
-          "cardNumber": "3528-8265-0443-7083",
+          "cardNumber": "2361-3045-1022-9565",
           "cardType": "Master Card",
-          "expiryDate": "2025-12-05",
-          "balance": 8950.94
+          "cardHolder": "Ernestine Herman",
+          "expiryDate": "2025-08-19",
+          "balance": 5640
         },
         {
-          "cardNumber": "4701721480274",
+          "cardNumber": "2335-6344-3205-0837",
           "cardType": "Master Card",
-          "expiryDate": "2025-09-21",
-          "balance": 9688.02
+          "cardHolder": "Ernestine Herman",
+          "expiryDate": "2025-10-08",
+          "balance": 3161
         },
         {
-          "cardNumber": "4181-9467-1563-6384",
+          "cardNumber": "2307-0700-5130-1173",
           "cardType": "Master Card",
-          "expiryDate": "2025-02-09",
-          "balance": 9895.07
+          "cardHolder": "Ernestine Herman",
+          "expiryDate": "2025-12-29",
+          "balance": 8313
         }
       ]
     },
     {
-      "id": "01JG0DV6D11ZTWTQ9PNCAYQJWZ",
-      "name": "Bonnie Volkman-Labadie",
-      "email": "Hailee98@yahoo.com",
-      "avatar": "https://avatars.githubusercontent.com/u/49604976",
+      "id": "01JGDPCRA5AD6SGRC9HYW3S0FW",
+      "name": "Ryley Reichert",
+      "email": "Ryley_Reichert75@yahoo.com",
+      "username": "Ryley.Reichert16",
+      "avatar": "https://avatars.githubusercontent.com/u/34775357",
+      "password": "RmGIHg",
       "creditCards": [
         {
-          "cardNumber": "3796-408928-22343",
+          "cardNumber": "2613-5760-8907-5448",
           "cardType": "Master Card",
-          "expiryDate": "2025-02-11",
-          "balance": 6663.93
+          "cardHolder": "Ryley Reichert",
+          "expiryDate": "2025-07-09",
+          "balance": 1405
+        },
+        {
+          "cardNumber": "2322-7797-6225-4494",
+          "cardType": "Master Card",
+          "cardHolder": "Ryley Reichert",
+          "expiryDate": "2025-11-24",
+          "balance": 9105
+        }
+      ]
+    },
+    {
+      "id": "01JGDPCRA6BCZTY3TXD8MZD6GX",
+      "name": "Modesto Abshire",
+      "email": "Modesto_Abshire@yahoo.com",
+      "username": "Modesto.Abshire",
+      "avatar": "https://avatars.githubusercontent.com/u/15316268",
+      "password": "siap6E",
+      "creditCards": [
+        {
+          "cardNumber": "5588-4897-4288-5084",
+          "cardType": "Master Card",
+          "cardHolder": "Modesto Abshire",
+          "expiryDate": "2025-05-16",
+          "balance": 7779
         }
       ]
     }
