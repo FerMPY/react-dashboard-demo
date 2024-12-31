@@ -22,11 +22,11 @@ const data = {
   navMain: [
     {
       title: ROUTES.Dashboard.title,
-      url: ROUTES.Dashboard.url,
+      path: ROUTES.Dashboard.path,
     },
     {
       title: ROUTES.Settings.title,
-      url: ROUTES.Settings.url,
+      path: ROUTES.Settings.path,
     },
   ],
 };
@@ -44,7 +44,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               {data.navMain.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   <SidebarMenuButton asChild>
-                    <NavLink to={item.url}>{item.title}</NavLink>
+                    <NavLink to={item.path}>{item.title}</NavLink>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
