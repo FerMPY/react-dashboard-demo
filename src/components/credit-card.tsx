@@ -11,7 +11,7 @@ export function CreditCard({
   cardNumber,
 }: {
   variant?: "light" | "dark";
-  balance?: string;
+  balance?: number;
   cardHolder?: string;
   validThru?: string;
   cardNumber?: string;
@@ -48,7 +48,7 @@ export function CreditCard({
             variant === "dark" ? "text-white" : "text-slate-800",
           )}
         >
-          Balance
+          ${balance}
         </span>
         <span
           className={cn(
@@ -64,7 +64,7 @@ export function CreditCard({
             variant === "dark" ? "text-white" : "text-slate-800",
           )}
         >
-          CARD HOLDER
+          {cardHolder}
         </span>
         <span
           className={cn(
@@ -80,7 +80,7 @@ export function CreditCard({
             variant === "dark" ? "text-white" : "text-slate-800",
           )}
         >
-          VALID THRU
+          {validThru}
         </span>
         <img
           className="absolute right-6 top-6 size-10"
@@ -104,7 +104,7 @@ export function CreditCard({
             variant === "dark" ? "text-white" : "text-slate-800",
           )}
         >
-          Balance
+          {cardNumber}
         </span>
       </div>
     </div>
